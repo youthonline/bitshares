@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/btcec"
-	"github.com/denkhaus/bitshares/config"
+	"github.com/youthonline/bitshares/config"
 	"github.com/stretchr/testify/assert"
 )
 

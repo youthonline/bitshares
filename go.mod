@@ -1,4 +1,4 @@
-module github.com/denkhaus/bitshares
+module github.com/youthonline/bitshares
 
 require (
 	github.com/bradhe/stopwatch v0.0.0-20180424000511-fd55e776a960
@@ -33,3 +33,5 @@ require (
 	gopkg.in/tomb.v2 v2.0.0-20161208151619-d5d1b5820637
 	gopkg.in/yaml.v2 v2.2.2 // indirect
 )
+
+go 1.13

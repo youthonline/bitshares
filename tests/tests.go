@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/denkhaus/bitshares"
-	"github.com/denkhaus/bitshares/types"
-	"github.com/denkhaus/bitshares/util"
+	"github.com/youthonline/bitshares"
+	"github.com/youthonline/bitshares/types"
+	"github.com/youthonline/bitshares/util"
 	"github.com/juju/errors"
 	"github.com/stretchr/testify/assert"
 )
@@ -26,7 +26,7 @@ var (
 	UserID1         = types.NewAccountID("1.2.282")  // xeroc user account
 	UserID2         = types.NewAccountID("1.2.253")  // stan user account
 	UserID3         = types.NewAccountID("1.2.0")    // committee-account user account
-	UserID4         = types.NewAccountID("1.2.1751") // denkhaus user account
+	UserID4         = types.NewAccountID("1.2.1751") // youthonline user account
 	AssetCNY        = types.NewAssetID("1.3.113")    // cny asset
 	AssetBTS        = types.NewAssetID("1.3.0")      // bts asset
 	AssetUSD        = types.NewAssetID("1.3.121")    // usd asset
@@ -55,7 +55,7 @@ var (
 	BitAssetDataCNY   = types.NewAssetBitAssetDataID("2.4.13")        // cny bitasset data id
 
 	TestAccount1UserName      = "denk-haus"
-	TestAccount1Password      = "denkhaus-testnet"
+	TestAccount1Password      = "youthonline-testnet"
 	TestAccount1PubKeyActive  = "TEST5zzvbDtkbUVU1gFFsKqCE55U7JbjTp6mTh1usFv7KGgXL7HDQk"
 	TestAccount1PrivKeyActive = "5Hx8KiHLnc3pDLkwe2jujkTTJev72n3Qx7xtyaRNBsJDuejzh9u"
 	TestAccount1PubKeyOwner   = "TEST5yXqEBShUgcVm7Mve8Fg4RzQ2ftPpmo77aMbz884eX9aeGVvwD"
@@ -64,7 +64,7 @@ var (
 	TestAccount1ID            = types.NewAccountID("1.2.3464")
 
 	TestAccount2UserName      = "denk-baum"
-	TestAccount2Password      = "denkhaus-testnet"
+	TestAccount2Password      = "youthonline-testnet"
 	TestAccount2PubKeyActive  = "TEST5Z3vsgH6xj6HLXcsU38yo4TyoZs9AUzpfbaXbuxsAYPbutWvEP"
 	TestAccount2PrivKeyActive = "5KRZv3ZmkcE71K9KwEKG6pV6pyufkMQgCJrCu8xKLf2y7R7J8YK"
 	TestAccount2PubKeyOwner   = "TEST8Yqc82JvQfThZJLSMKdhJ1ZhsT9L58tB47ETiJQrB1yg1ygtwu"
@@ -73,7 +73,7 @@ var (
 	TestAccount2ID            = types.NewAccountID("1.2.3496")
 
 	TestAccount3UserName      = "bs-test"
-	TestAccount3Password      = "denkhaus-test"
+	TestAccount3Password      = "youthonline-test"
 	TestAccount3PubKeyActive  = "BTS5shffTjVoT4J8Zrj3f2mQJw4UVKrnbx5FWYhVgov45EpBf2NYi"
 	TestAccount3PrivKeyActive = "5JTge2oTwFqfNPhUrrm6upheByG2VXvaXBAqWdDUvK2CsygMG3Z"
 	TestAccount3PubKeyOwner   = "BTS56fy8qpkLzNoguGMPgPNkkznxnx2woEg1qPq7E6gF2SeGSRyK5"

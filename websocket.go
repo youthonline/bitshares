@@ -4,18 +4,18 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/denkhaus/bitshares/api"
-	"github.com/denkhaus/bitshares/config"
-	"github.com/denkhaus/bitshares/crypto"
-	"github.com/denkhaus/bitshares/operations"
-	"github.com/denkhaus/bitshares/types"
-	"github.com/denkhaus/bitshares/util"
+	"github.com/youthonline/bitshares/api"
+	"github.com/youthonline/bitshares/config"
+	"github.com/youthonline/bitshares/crypto"
+	"github.com/youthonline/bitshares/operations"
+	"github.com/youthonline/bitshares/types"
+	"github.com/youthonline/bitshares/util"
 	"github.com/denkhaus/logging"
 	"github.com/juju/errors"
 	"github.com/pquerna/ffjson/ffjson"
 
 	// init operations
-	_ "github.com/denkhaus/bitshares/operations"
+	_ "github.com/youthonline/bitshares/operations"
 )
 
 const (

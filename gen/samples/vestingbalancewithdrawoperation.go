@@ -4,8 +4,8 @@
 package samples
 
 import (
-	"github.com/denkhaus/bitshares/gen/data"
-	"github.com/denkhaus/bitshares/types"
+	"github.com/youthonline/bitshares/gen/data"
+	"github.com/youthonline/bitshares/types"
 )
 
 var (

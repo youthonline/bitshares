@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/denkhaus/bitshares/config"
-	"github.com/denkhaus/bitshares/util"
+	"github.com/youthonline/bitshares/config"
+	"github.com/youthonline/bitshares/util"
 	"github.com/denkhaus/logging"
 	"github.com/pquerna/ffjson/ffjson"
 

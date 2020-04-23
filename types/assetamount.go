@@ -5,7 +5,7 @@ package types
 import (
 	"math"
 
-	"github.com/denkhaus/bitshares/util"
+	"github.com/youthonline/bitshares/util"
 	"github.com/juju/errors"
 )
 

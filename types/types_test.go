@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/denkhaus/bitshares/util"
+	"github.com/youthonline/bitshares/util"
 	"github.com/stretchr/testify/assert"
 )
 

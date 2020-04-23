@@ -10,10 +10,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/denkhaus/bitshares"
-	"github.com/denkhaus/bitshares/gen/data"
-	"github.com/denkhaus/bitshares/tests"
-	"github.com/denkhaus/bitshares/types"
+	"github.com/youthonline/bitshares"
+	"github.com/youthonline/bitshares/gen/data"
+	"github.com/youthonline/bitshares/tests"
+	"github.com/youthonline/bitshares/types"
 	"github.com/denkhaus/logging"
 	"github.com/juju/errors"
 	"github.com/pquerna/ffjson/ffjson"
@@ -21,7 +21,7 @@ import (
 	tomb "gopkg.in/tomb.v2"
 
 	// importing this initializes sample data fetching
-	"github.com/denkhaus/bitshares/gen/samples"
+	"github.com/youthonline/bitshares/gen/samples"
 )
 
 const (

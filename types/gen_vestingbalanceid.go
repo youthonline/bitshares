@@ -7,7 +7,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/denkhaus/bitshares/util"
+	"github.com/youthonline/bitshares/util"
 	"github.com/denkhaus/logging"
 	"github.com/juju/errors"
 )

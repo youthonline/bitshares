@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/denkhaus/bitshares/gen/data"
-	"github.com/denkhaus/bitshares/types"
+	"github.com/youthonline/bitshares/gen/data"
+	"github.com/youthonline/bitshares/types"
 	"github.com/denkhaus/logging"
 	"github.com/juju/errors"
 	"github.com/mitchellh/reflectwalk"

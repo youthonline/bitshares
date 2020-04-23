@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/denkhaus/bitshares/gen/data"
-	"github.com/denkhaus/bitshares/types"
-	"github.com/denkhaus/bitshares/util"
-	"github.com/denkhaus/gojson"
+	"github.com/youthonline/bitshares/gen/data"
+	"github.com/youthonline/bitshares/types"
+	"github.com/youthonline/bitshares/util"
+	"github.com/youthonline/gojson"
 	"github.com/juju/errors"
 	"github.com/pquerna/ffjson/ffjson"
 )

@@ -5,8 +5,8 @@ package operations
 import (
 	"strconv"
 
-	"github.com/denkhaus/bitshares/types"
-	"github.com/denkhaus/bitshares/util"
+	"github.com/youthonline/bitshares/types"
+	"github.com/youthonline/bitshares/util"
 	"github.com/juju/errors"
 )
 

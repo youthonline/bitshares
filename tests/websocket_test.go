@@ -3,11 +3,11 @@ package tests
 import (
 	"testing"
 
-	"github.com/denkhaus/bitshares"
-	"github.com/denkhaus/bitshares/config"
-	"github.com/denkhaus/bitshares/crypto"
-	"github.com/denkhaus/bitshares/operations"
-	"github.com/denkhaus/bitshares/types"
+	"github.com/youthonline/bitshares"
+	"github.com/youthonline/bitshares/config"
+	"github.com/youthonline/bitshares/crypto"
+	"github.com/youthonline/bitshares/operations"
+	"github.com/youthonline/bitshares/types"
 	"github.com/stretchr/testify/suite"
 )
 

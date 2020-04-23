@@ -3,9 +3,9 @@ package bitshares
 import (
 	"fmt"
 
-	"github.com/denkhaus/bitshares/api"
-	"github.com/denkhaus/bitshares/config"
-	"github.com/denkhaus/bitshares/types"
+	"github.com/youthonline/bitshares/api"
+	"github.com/youthonline/bitshares/config"
+	"github.com/youthonline/bitshares/types"
 	"github.com/denkhaus/logging"
 	"github.com/juju/errors"
 	"github.com/pquerna/ffjson/ffjson"

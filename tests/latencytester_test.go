@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/denkhaus/bitshares"
-	"github.com/denkhaus/bitshares/api"
+	"github.com/youthonline/bitshares"
+	"github.com/youthonline/bitshares/api"
 	"github.com/stretchr/testify/assert"
 )
 
